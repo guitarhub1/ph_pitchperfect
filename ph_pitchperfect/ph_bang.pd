@@ -1,0 +1,62 @@
+#N canvas -20 200 637 300 10;
+#X obj 206 34 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 87 20 loadbang;
+#X msg 86 44 440;
+#X floatatom 89 75 5 0 0 0 - - -, f 5;
+#X msg 98 96 keynote \$1;
+#X floatatom 229 226 5 0 0 0 - - -, f 5;
+#X floatatom 262 226 5 0 0 0 - - -, f 5;
+#X floatatom 193 226 5 0 0 0 - - -, f 5;
+#X obj 193 155 ph_pitchperfect, f 42;
+#X floatatom 330 228 5 0 0 0 - - -, f 5;
+#X floatatom 365 227 5 0 0 0 - - -, f 5;
+#X floatatom 296 227 5 0 0 0 - - -, f 5;
+#X floatatom 404 228 5 0 0 0 - - -, f 5;
+#X floatatom 442 228 5 0 0 0 - - -, f 5;
+#X obj 475 82 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 493 82 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 512 82 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 531 82 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 550 82 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 569 82 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 588 82 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 607 82 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X floatatom 299 275 5 0 0 0 - - -, f 5;
+#X connect 0 0 8 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 8 0;
+#X connect 5 0 22 0;
+#X connect 6 0 22 0;
+#X connect 7 0 22 0;
+#X connect 8 0 7 0;
+#X connect 8 1 5 0;
+#X connect 8 2 6 0;
+#X connect 8 3 11 0;
+#X connect 8 4 9 0;
+#X connect 8 5 10 0;
+#X connect 8 6 12 0;
+#X connect 8 7 13 0;
+#X connect 9 0 22 0;
+#X connect 10 0 22 0;
+#X connect 11 0 22 0;
+#X connect 12 0 22 0;
+#X connect 13 0 22 0;
+#X connect 14 0 7 0;
+#X connect 15 0 5 0;
+#X connect 16 0 6 0;
+#X connect 17 0 11 0;
+#X connect 18 0 9 0;
+#X connect 19 0 10 0;
+#X connect 20 0 12 0;
+#X connect 21 0 13 0;
